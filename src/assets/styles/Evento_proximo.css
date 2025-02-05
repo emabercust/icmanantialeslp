@@ -1,0 +1,89 @@
+
+.evento_imagen {
+  position: relative;
+  /* Mantén el banner en flujo normal */
+
+  height: 100vh;
+  /* Altura del banner */
+  background-size: cover;
+  /* Escala la imagen para cubrir todo el área */
+  background-repeat: no-repeat;
+  /* Evita que la imagen se repita */
+  background-position: center;
+  /* La imagen se posiciona en el centro tanto vertical como horizontalmente */
+  display: flex;
+  flex-direction: column;
+  /* Coloca los elementos en columna */
+  justify-content: center;
+  /* Centra la navegación verticalmente */
+  margin-top: -91px;
+  /* Ajusta según la altura del header */
+  z-index: 1;
+  /* Asegúrate de que el banner esté detrás del header */
+
+}
+
+
+.form-container {
+  width: 350px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #11a591;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: black;
+}
+
+input {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.btn-submit {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn-submit:hover {
+  background-color: #0056b3;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.success {
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 15px;
+}

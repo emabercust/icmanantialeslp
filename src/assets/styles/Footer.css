@@ -1,0 +1,41 @@
+/*display: flex; en .footer:
+Con justify-content: center; y align-items: center;, los íconos se centran perfectamente tanto horizontal como verticalmente.*/
+.footer {
+   background-color: #333; /* Fondo oscuro */
+    color: white; /* Texto blanco */
+    display: flex; /* Flexbox en el contenedor principal */
+    flex-direction: column; /* Acomoda elementos en columna */
+    justify-content: center; /* Centra verticalmente */
+    align-items: center; /* Centra horizontalmente */
+ margin-top: 50px;
+  }
+  
+/*  Se utiliza display: flex; y justify-content: center; en .social-icons para centrar los íconos horizontalmente.*/
+  .footer .social-icons {
+    display: flex;
+    justify-content: center; /* Centra los íconos horizontalmente */
+    gap: 20px; /* Espaciado entre los íconos */
+    margin-bottom: 10px; /* Espaciado entre los íconos y el texto */
+  }
+  
+  /* Estilo común para los íconos */
+  .footer .icon {
+    font-size: 1.7rem; /* Tamaño del ícono */
+    color: white;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  /* Efecto hover */
+  .footer .icon:hover {
+    transform: scale(1.2); /* Aumenta el tamaño al pasar el mouse */
+    color: #ffcc00; /* Cambia el color */
+  }
+  
+  
+  .footer .footer-text {
+    font-size: 0.9rem;
+    margin-top: 10px;
+    opacity: 0.8; /* Reduce ligeramente la opacidad del texto */
+  color: white;
+  }
+  

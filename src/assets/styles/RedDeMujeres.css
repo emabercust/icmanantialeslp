@@ -1,0 +1,120 @@
+/* styles.css */
+/*PARA MANIPULAR LA IMAGEN DEL BANNER TOCAR ESTOS ESTILOS
+   background-size: 100% 100%; 
+   background-position: center 70px;
+    */
+/* banner_pri: contenedor principal */
+.banner-reddemujeres {
+
+    position: relative; /* Posiciona el contenedor principal */
+    height: auto; /* Ajusta la altura según el contenido */
+    display: flex; /* Para controlar la alineación interna */
+    justify-content: center; /* Centra los hijos verticalmente */
+    align-items: center; /* Centra los hijos horizontalmente */
+
+display: flex; /* Asegúrate de que los elementos internos estén en flexbox */
+
+flex-direction: column; /* Organiza los hijos en columna */
+text-align: center; /* Centra el texto */
+text-align: center; /* Centra el texto */
+
+}
+
+
+/* Estilos del banner */
+.banner-reddemujeres .banner {
+    position: relative; /* Mantén la posición relativa */
+    width: 100%; /* Ocupa todo el ancho del contenedor */
+    height: 70vh; /* La altura será igual a la ventana */
+  
+    /* Fondo con degradado oscuro y una imagen */
+    background: 
+      linear-gradient(
+        rgba(0, 0, 0, 0.5), /* Degradado oscuro inicial */
+        rgba(0, 0, 0, 0.5)  /* Degradado oscuro final */
+      ),
+      url('/src/assets/images/live_de_mujeres.jpeg') no-repeat; /* Imagen de fondo */
+    
+    background-size: 100% 100%; /* Escala la imagen para cubrir todo el contenedor */
+    background-position: center 70px; /* Centra la imagen */
+    z-index: 1; /* Mantén el banner detrás de otros elementos si es necesario */
+    margin-top: -190px;
+
+}
+
+.banner-reddemujeres .banner-content {
+    margin-top: 200px;
+}
+
+.banner-reddemujeres .banner-content h1 {
+    font-size: 20px;
+    color: white;
+}
+
+
+
+/* Estilo común para los íconos */
+.banner-reddemujeres .social-icons {
+}
+
+.banner-reddemujeres  .social-icons .icon {
+    font-size: 2rem;
+    /* Tamaño del ícono */
+    color: white;
+    padding: 10px;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+/* Efecto hover */
+.banner-reddemujeres  .social-icons .icon:hover {
+    transform: scale(1.2);
+    /* Aumenta el tamaño al pasar el mouse */
+    color: #ffcc00;
+    /* Cambia el color */
+}
+
+@media (max-width: 768px) {
+
+    .banner-reddemujeres .banner {
+        /* Ajusta según la altura del header */
+        height: 50vh;
+        color: white;
+
+    }
+
+    .banner-reddemujeres .banner-content {
+            margin-top: 163px;
+    }
+
+    .banner-reddemujeres .social-icons {
+        margin: 5px auto;
+    }
+
+    .banner-reddemujeres .banner-content h1 {
+        font-size: 22px;
+        color: white;
+    }
+
+    .banner-reddemujeres .banner-content h3 {
+        font-size: 20px;
+        margin-top: 0;
+
+    }
+}
+
+@media (max-width: 430px) {
+
+    .banner-reddemujeres .banner {
+        margin-top: -225px;
+        /* Ajusta según la altura del header */
+        height: 50vh;
+        color: white;
+        background-size: 100% 100%; /* Escala la imagen para cubrir todo el contenedor */
+     
+    }
+    .banner-reddemujeres .banner-content {
+        margin-top: 200px;
+    }
+
+ 
+}

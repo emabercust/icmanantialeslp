@@ -1,0 +1,122 @@
+/* Estilo general para el Swiper */
+.carousel-container {
+  width: 80%;
+  margin: 50px auto; /*parecido al margin top*/
+  text-align: center;
+  
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+/*Estilo del swiper*/
+.swiper {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+/* Estilo para cada slide */
+.swiper-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.slide-content {
+ background-color: #000;  
+ padding: 5px;
+ border-radius: 8px;
+ box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+}
+
+.slide-content h2 {
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #fff;
+}
+
+/* Contenedor con proporción fija */
+.media-container {
+  width: 100%; /* El contenedor toma todo el ancho disponible */
+  aspect-ratio: 4/3; /* Proporción fija para el contenedor */
+  overflow: hidden; /* Evita que el contenido exceda los bordes */
+  border-radius: 8px; /* Esquinas redondeadas */
+  background-color: #000; /* Fondo negro */
+  display: flex; /* Centra la imagen si no llena el espacio */
+  align-items: center;
+  justify-content: center;
+}
+
+
+.media-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ajusta la imagen para llenar el contenedor sin deformarse */
+  background-color: #000; /* Fondo negro si la imagen no llena el contenedor */
+}
+
+/* Navegación personalizada */
+.swiper-button-prev,
+.swiper-button-next {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  background-color: #333;
+}
+
+/* Media queries para la responsividad */
+@media (max-width: 768px) {
+  .carousel-container {
+    width:80%;
+
+  }
+
+  
+}
+
+
+
+/*componente Home_mlss,js*/
+.la-previa {
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+
+  padding: 5px;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.1);
+
+  margin-top:50px;
+}
+
+.la-previa img{
+width: 100%;
+height: 170px;
+justify-content: center;
+/* Centra la navegación verticalmente */
+}
+
+
+.la-previa p {
+  font-size: 17px;
+  text-align: center;
+}
+
+
+
+
+
+
+
