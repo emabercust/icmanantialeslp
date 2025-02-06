@@ -10,6 +10,7 @@ import EventoProximo from "./components/Evento_proximo";
 import MlssYouth from "./components/Mlss_youth";
 import RedDeMujeres from "./components/RedDeMujeres";
 import ManantialesKids from "./components/ManantialesKids";
+import Contact from "./components/ContactForm";
 
 function App() {   
   return (
@@ -22,10 +23,11 @@ function App() {
         <Route path="/mlss-youth" element={<MlssYouth />} />
         <Route path="/red-de-mujeres" element={<RedDeMujeres />} />
         <Route path="/manantiales-kids" element={<ManantialesKids />} />
+        <Route path="/contact" element={<Contact />} />
 
       </Routes>
       <Footer />
-    </Router>
+    </Router> 
   );
 }
 
