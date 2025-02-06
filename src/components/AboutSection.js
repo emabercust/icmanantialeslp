@@ -9,7 +9,7 @@ const CampusInfo = () => {
         <h1>Evento Próximo</h1>
         <img src={logo} alt="Manantiales logo" />
 
-        <a href="/evento_proximo" className="icon" target="_blank" rel="noopener noreferrer">
+        <a href="/evento_proximo" className="icon"  rel="noopener noreferrer">
           <p>         
            Campamento. Anotate aquí
           </p>
