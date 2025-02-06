@@ -4,7 +4,6 @@ import { Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "./../assets/styles/Carousel.css"; // Archivo CSS para estilos personalizados
-import premlss from "./../assets/images/la_previa.jpeg"; // Importa la imagen del logo
 
 const slides = [
   { title: "Bautizos", image: "/assets/images/img1.jpeg", alt: "Imagen de bautizo" },

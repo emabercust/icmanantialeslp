@@ -1,5 +1,4 @@
 import React from "react";
-import bannerImage from "../assets/images/banner.jpeg"; // Imagen del banner
 
 import { FaWhatsapp, FaInstagram, FaFacebook } from "react-icons/fa"; // Importar íconos
 import "./../assets/styles/Mlss_youth.css"; // Archivo CSS para los estilos
