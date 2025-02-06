@@ -2,7 +2,7 @@ import React from "react";
 
 import { FaWhatsapp, FaInstagram, FaFacebook } from "react-icons/fa"; // Importar íconos
 import "./../assets/styles/ManantialesKids.css"; // Archivo CSS para los estilos
-import Home_mlss from "./Home_manantialeskids"; // Importa el componente Home
+import HomeMlss from "./Home_manantialeskids"; // Importa el componente Home
 
 const ManantialesKids = () => {
     return (
@@ -51,7 +51,7 @@ const ManantialesKids = () => {
 
             {/* Home debajo del Banner */}
             <div className="home-section">
-                <Home_mlss />
+                <HomeMlss />
             </div>
         
         </>

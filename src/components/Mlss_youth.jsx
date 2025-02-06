@@ -2,7 +2,7 @@ import React from "react";
 
 import { FaWhatsapp, FaInstagram, FaFacebook } from "react-icons/fa"; // Importar íconos
 import "./../assets/styles/Mlss_youth.css"; // Archivo CSS para los estilos
-import Home_mlss from "./Home_mlss"; // Importa el componente Home
+import HomeMlss from "./Home_mlss"; // Importa el componente Home
 
 const Mlss_youth = () => {
     return (
@@ -53,7 +53,7 @@ const Mlss_youth = () => {
 
             {/* Home debajo del Banner */}
             <div className="home-section">
-                <Home_mlss />
+                <HomeMlss />
             </div>
         
         </>

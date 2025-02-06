@@ -2,7 +2,7 @@ import React from "react";
 
 import { FaWhatsapp, FaInstagram, FaFacebook } from "react-icons/fa"; // Importar íconos
 import "./../assets/styles/RedDeMujeres.css"; // Archivo CSS para los estilos
-import Home_reddemujeres from "./Home_reddemujeres"; // Importa el componente Home
+import HomeReddeMujeres from "./Home_reddemujeres"; // Importa el componente Home
 
 const RedDeMujeres = () => {
     return (
@@ -52,7 +52,7 @@ const RedDeMujeres = () => {
 
             {/* Home debajo del Banner */}
             <div className="home-section">
-                <Home_reddemujeres />
+                <HomeReddeMujeres />
             </div>
         
         </>
